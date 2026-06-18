@@ -1,0 +1,3 @@
+*.java linguist-detectable=true
+*.sh linguist-detectable=false
+sample_output/* linguist-generated=true
