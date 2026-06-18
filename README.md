@@ -24,7 +24,7 @@ privacy-compliant by design.
 | email      | string   | Valid, or intentionally malformed                |
 | phone      | string   | `+1` number, or malformed                        |
 | street/city/state/zip | string | US-style address components           |
-| age        | int      | 18–90 valid; out-of-range in invalid mode        |
+| age        | int      | 18-90 valid; out-of-range in invalid mode        |
 | signup_dt  | ISO-8601 | Last 3 years; invalid dates in invalid mode      |
 | _scenario  | string   | `valid` or `invalid` tag for filtering           |
 
@@ -36,14 +36,6 @@ privacy-compliant by design.
 ## How to run
 
 ### Option A — with a JDK (compile then run)
-
-```bash
-bash run.sh                          # default: 50 records, ~20% invalid
-bash run.sh -n 500 -i 0.3 --seed 42  # 500 records, 30% invalid, reproducible
-bash run.sh -n 100 -o my_output      # custom output directory
-```
-
-Or manually:
 
 ```bash
 javac -d out src/main/java/com/poc/testdata/TestDataGenerator.java
@@ -61,7 +53,7 @@ java src/main/java/com/poc/testdata/TestDataGenerator.java -n 50 -i 0.25 --seed 
 | Flag | Description | Default |
 |------|-------------|---------|
 | `-n, --count` | Number of records | 50 |
-| `-i, --invalid-ratio` | Fraction of invalid records (0.0–1.0) | 0.2 |
+| `-i, --invalid-ratio` | Fraction of invalid records (0.0-1.0) | 0.2 |
 | `-o, --outdir` | Output directory | `output` |
 | `--seed` | Seed for reproducible runs | none |
 | `-h, --help` | Show help | |
@@ -79,10 +71,10 @@ A ready-made example is committed under `sample_output/`.
 
 ## Test scenarios simulated
 
-- **Valid emails** vs malformed (`plainaddress`, `@x.com`, `two@@at.com`, …)
-- **Valid phones** vs malformed (`123`, `abc-def`, empty, …)
-- **In-range ages** (18–90) vs out-of-range (`-5`, `0`, `150`, `999`)
-- **Clean names** vs blank/numeric/injection-style (`<script>…`)
+- **Valid emails** vs malformed (`plainaddress`, `@x.com`, `two@@at.com`, ...)
+- **Valid phones** vs malformed (`123`, `abc-def`, empty, ...)
+- **In-range ages** (18-90) vs out-of-range (`-5`, `0`, `150`, `999`)
+- **Clean names** vs blank/numeric/injection-style (`<script>...`)
 - **Valid timestamps** vs unparseable dates (`not-a-date`, `2099-13-40`)
 
 ## How to extend
@@ -96,7 +88,6 @@ schema-agnostic and need no changes.
 ```
 test-data-generator-java/
 ├── README.md
-├── run.sh
 ├── pom.xml                         # optional Maven build (if you add Faker)
 ├── sample_output/
 │   ├── users.json
