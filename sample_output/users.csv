@@ -1,0 +1,51 @@
+user_id,name,email,phone,street,city,state,zip,age,signup_dt,_scenario
+b33b0ba3-36ac-4d2a-8a37-461426cc78b3,Yuki Mueller,yuki.mueller970@demo.io,+14216627920,2519 Cedar Ln,Fairview,TX,55276,69,2025-01-13T15:28:40.685492585Z,valid
+a6835cb5-8120-4729-b66d-2fa893b7f05f,Chen Johnson,chen.johnson209@demo.io,+13215665988,3013 Cedar Ln,Auburn,NC,07458,47,2024-11-04T15:28:40.691665540Z,valid
+7948a74c-d9be-4eb9-8cf0-03d5019167af,Chen Nguyen,chen.nguyen217@testmail.org,+13377743501,3113 Elm Dr,Kingston,NY,99823,41,2024-03-25T15:28:40.691824205Z,valid
+fb8c671a-db45-4d8e-bc74-0a9443f095ab,Ava Johnson,ava.johnson443@testmail.org,+13592652656,4856 Maple St,Greenville,NY,04059,999,2099-13-40,invalid
+85c96562-88c4-48b6-a6c5-c5e6d4e3688f,Priya Garcia,priya.garcia499@testmail.org,+13091388983,4229 Cedar Ln,Franklin,TX,82460,20,2024-10-23T15:28:40.692084783Z,valid
+d87b7aa6-d2ec-40da-9f8f-57b04c3f8118,Emma Patel,emma.patel807@example.com,+18670929882,5298 Park Pl,Madison,CA,29923,72,2026-03-21T15:28:40.692215512Z,valid
+da9f3988-bfc5-433a-9e2f-33be496093b8,Ethan Mueller,ethan.mueller328@testmail.org,+12065196827,4529 Cedar Ln,Salem,OH,63246,69,2023-08-16T15:28:40.692317780Z,valid
+3fe6dcf7-b8cb-48d4-81ab-12ac975ee05d,Isla Rossi,isla.rossi31@testmail.org,+16929709479,1206 Park Pl,Clinton,CA,34958,33,2025-10-19T15:28:40.692422933Z,valid
+640ec08d-f1db-4d27-816a-fd1ce696beb4, ,emma.rossi402@testmail.org,,6332 Pine Rd,Bristol,OH,73442,999,2024-05-16T15:28:40.692532493Z,invalid
+e2d41d94-f034-459b-a6aa-192b59f66860,Olivia Kim,olivia.kim35@demo.io,+13089799211,599 Maple St,Kingston,TX,29441,35,2025-10-30T15:28:40.692648186Z,valid
+ae91b30d-6c28-474b-915d-a7ca6abb4413,Diya Ali,diya.ali30@testmail.org,+18200965566,4524 Elm Dr,Auburn,CA,07006,79,2025-06-11T15:28:40.692770200Z,valid
+f3fb1252-f70e-43d2-8883-156fe96f32bd,Noah Patel,noah.patel589@testmail.org,+13003008257,5085 Sunset Blvd,Auburn,CA,20331,39,2024-06-10T15:28:40.692915080Z,valid
+716d38ec-61c0-4303-a0e2-ed2ce3d6b087,Mateo Okafor,plainaddress,+16386677533,7609 Hillcrest Ave,Clinton,CO,01269,32,not-a-date,invalid
+940c4128-ce97-4659-b11a-2f5815657b7d,Lucas Rossi,lucas.rossi359@testmail.org,+17505968554,675 Oak Ave,Salem,AZ,12673,34,2025-10-05T15:28:40.693140854Z,valid
+e83bff62-89a9-4994-bd58-396e86814151,Sofia Garcia,sofia.garcia417@demo.io,+16724649170,8659 Lake View Dr,Clinton,WA,05290,35,2025-03-19T15:28:40.693213114Z,valid
+c701f426-4a10-498f-8603-50d9269e480a,Yuki Garcia,yuki.garcia141@demo.io,+17273467793,5293 Birch Way,Franklin,OH,52253,80,2026-03-06T15:28:40.693314522Z,valid
+40dd3d61-c1a8-4fb5-a841-66575b7224f7,Mei Brown,mei.brown509@demo.io,+12749818292,3947 Birch Way,Kingston,FL,66206,45,2025-11-20T15:28:40.693433889Z,valid
+4cbff9bd-6f4f-42d9-a747-599bc5fa4f5b,Chen Garcia,chen.garcia186@example.com,+18400487007,7367 Park Pl,Springfield,OH,96410,90,2025-06-04T15:28:40.693543158Z,valid
+10a3e496-ac87-483e-8f5b-3155e81d3b3e,Chen Ali,chen.ali18@sample.net,+12322155182,8037 Cedar Ln,Salem,WA,63993,28,2024-02-25T15:28:40.693652456Z,valid
+4f20a01d-73cc-4c88-86c8-a8cc69e2eb2a,Liam Silva,liam.silva913@sample.net,+12121972971,4665 Hillcrest Ave,Georgetown,TX,99243,57,2024-10-01T15:28:40.693733121Z,valid
+e282bbb7-3673-453c-b67e-07cfadd7db84,123456,liam.wang5@testmail.org,abc-def-ghij,8218 Park Pl,Franklin,MA,60302,0,2025-04-01T15:28:40.693851156Z,invalid
+07ef72f4-5001-4f49-9a45-54462598f7cf,123456,ethan.johnson488@testmail.org,+16842574878,9318 Elm Dr,Riverton,OH,20956,7,2024-07-09T15:28:40.694017453Z,invalid
+ae5e0791-7902-421e-8d38-cf7e5f49fd5f,123456,missingat.com,+15656031109,9541 Hillcrest Ave,Auburn,CO,61366,7,2023-11-02T15:28:40.694126970Z,invalid
+515d1127-a006-4b80-a366-58906b19725c,Olivia Brown,olivia.brown950@sample.net,+17063418480,4476 Lake View Dr,Fairview,CA,30860,37,2025-07-01T15:28:40.701771531Z,valid
+5867039f-dcc5-438e-b9ae-109da4f870a6, ,two@@at.com,+17222609386,3020 Oak Ave,Riverton,CA,81208,24,not-a-date,invalid
+32a3a23d-159f-4ff5-b539-b9714ddbb775,Sofia Smith,sofia.smith134@testmail.org,+18380526927,7511 Hillcrest Ave,Greenville,FL,12379,58,2024-12-26T15:28:40.702032802Z,valid
+0680923b-ccdc-41a8-8d4d-10b77e722498,Raj Silva,raj.silva985@testmail.org,abc-def-ghij,2801 Oak Ave,Clinton,MA,53678,150,2099-13-40,invalid
+c7ac6362-0f0a-4c4b-964d-f33b00481494,Priya Tanaka,priya.tanaka497@sample.net,+15683798580,3646 Elm Dr,Riverton,NY,25616,67,2025-09-27T15:28:40.702299114Z,valid
+817084f9-a7f4-4c02-8336-4c30a467ed3b,Diya Khan,diya.khan757@sample.net,+19590384970,8830 Lake View Dr,Fairview,MA,66716,20,2024-11-25T15:28:40.702398713Z,valid
+8604331b-86de-45bf-8863-f81265e84fdd,Aarav Lopez,aarav.lopez721@sample.net,+14109077947,7903 Cedar Ln,Georgetown,GA,24823,69,2024-07-28T15:28:40.702465174Z,valid
+06f32640-5b6f-4a2a-894f-bccc54cc4f79,Aarav Kim,aarav.kim819@testmail.org,+14671652164,6821 Lake View Dr,Riverton,GA,15088,25,2025-10-18T15:28:40.702567399Z,valid
+faf03d8c-0775-4a94-bd11-a692772c69f5,Mei Garcia,mei.garcia530@demo.io,+16440005519,4942 Elm Dr,Clinton,NC,37230,67,2024-03-25T15:28:40.702664907Z,valid
+738a90a6-617b-4828-b704-37e0963852f5,Fatima Garcia,fatima.garcia100@demo.io,+19463001025,3210 Sunset Blvd,Clinton,GA,58748,51,2024-08-04T15:28:40.702820695Z,valid
+b7937428-fb20-4fe9-9118-1389bea69cd1,Ethan Mueller,ethan.mueller492@example.com,+12904467236,9467 Hillcrest Ave,Auburn,GA,90548,79,2023-09-24T15:28:40.702927617Z,valid
+43339642-8be3-45cc-8a79-1b47951e89f4,Isla Mueller,isla.mueller564@example.com,+16481151811,1044 Park Pl,Fairview,MA,96863,45,2026-04-13T15:28:40.703021003Z,valid
+82c101e2-e024-4bda-9cea-fc5a34ccbf86,Mei Brown,mei.brown64@sample.net,+13948451764,383 Lake View Dr,Riverton,AZ,26443,40,2026-04-20T15:28:40.703141117Z,valid
+ca044bba-3d1e-4e64-9785-bb7527e1baee,,noah.wang946@demo.io,,9305 Birch Way,Madison,MA,92798,28,2099-13-40,invalid
+f4d53758-aa8a-4778-9f5f-ae644e9a0ff8,Yuki Tanaka,yuki.tanaka262@testmail.org,+12812109575,8890 Oak Ave,Franklin,FL,12838,19,2025-05-02T15:28:40.703370929Z,valid
+2ba16747-2f7b-4ab6-9bf3-40a604f8f277,Lucas Lopez,,+12276168609,4590 Hillcrest Ave,Kingston,GA,51233,-5,2023-12-28T15:28:40.703485802Z,invalid
+95601e52-60a0-452e-adbb-2c2848fa74d4,Aarav Lopez,trailingdot@email.,,9980 Park Pl,Fairview,AZ,85370,83,2023-07-12T15:28:40.703587575Z,invalid
+75148745-1750-461e-bc9e-39c6390fad6b,<script>x</script>,yuki.patel423@demo.io,+1-000,2389 Park Pl,Greenville,GA,26192,90,2024-05-13T15:28:40.703688852Z,invalid
+b5a23695-675d-4061-95c4-143da9853a60,Ethan Patel,ethan.patel113@example.com,+18356477011,8432 Lake View Dr,Riverton,IL,54281,42,2024-08-21T15:28:40.703810787Z,valid
+22900758-2ebf-4262-8cb8-1ddb8ae894f7,Raj Nguyen,raj.nguyen825@sample.net,+15894973899,6950 Oak Ave,Franklin,AZ,47935,28,2024-02-25T15:28:40.703911426Z,valid
+ba407e0e-81db-453c-acfd-4bce0a470878, ,yuki.kim980@sample.net,+13659662631,4871 Hillcrest Ave,Fairview,IL,10732,-5,2099-13-40,invalid
+217c8575-82ab-4c5d-bc3c-7450eb19a6a7,Raj Wang,raj.wang596@testmail.org,+15817279499,7403 Oak Ave,Auburn,WA,01539,75,2026-04-15T15:28:40.704087488Z,valid
+dc565683-72f1-403e-8213-080d85bc0ef9,Emma Garcia,emma.garcia630@demo.io,+13009935907,2130 Elm Dr,Riverton,NC,99755,41,2023-08-26T15:28:40.704183585Z,valid
+dc9533d6-3510-45b4-aa52-9f3a858abe85,Sofia Wang,sofia.wang685@example.com,+16079900101,1510 Oak Ave,Kingston,FL,32580,35,2025-08-29T15:28:40.704286527Z,valid
+5dc3772f-81a2-4f08-8017-77b95a0618f7,Noah Lopez,noah.lopez974@sample.net,+16703899828,5146 Birch Way,Salem,OH,18606,32,2025-04-29T15:28:40.704388931Z,valid
+5667c452-6504-475a-94fb-8f1b9bd61731,Ethan Okafor,ethan.okafor660@testmail.org,+16970809367,8326 Birch Way,Greenville,FL,10206,73,2023-12-14T15:28:40.704494248Z,valid
+f4c2b164-1374-47ba-8b36-c462207186a3,Fatima Costa,fatima.costa71@example.com,+13818687167,971 Lake View Dr,Georgetown,IL,60209,31,2026-02-05T15:28:40.704581144Z,valid
